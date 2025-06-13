@@ -18,7 +18,7 @@
        PROCEDURE DIVISION.
        010-INITIALIZATION.
       *       Initialize Program-work-fields
-           DISPLAY "Program EBUD0RUN STARTING "
+           DISPLAY "Program EBUD0RUN STARTING  training"
 
            ACCEPT L-CCYY.
            ACCEPT L-MM.
@@ -49,7 +49,7 @@
       *    DISPLAY "PROGRAM IS ENDING -- GOODBYE".
 
        050-PRINT.
-           DISPLAY 'Retirement-Date'.
+           DISPLAY 'Retirement-Date displayed'.
            DISPLAY RETIREMENT-DATE
            PERFORM 030-SEEYA.
 
